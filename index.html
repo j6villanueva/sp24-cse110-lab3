@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <img src="asg.png" alt="Logo">
+        <div class="logo-box"><img src="asg.png" alt="Logo"></div>
     </header>
     <main>
         <section id="meetin-notice">        
@@ -39,7 +39,7 @@
             </div>
             <hr>
             <p>
-                <b>NOTICE IS HEREBY GIVEN</b> that the Student Senate of the Associated Student Government of Santa
+                <div class="notice"><b>NOTICE IS HEREBY GIVEN</b></div> that the Student Senate of the Associated Student Government of Santa
                 Barbara City College will hold a meeting on Friday, November 2nd, 2018 from 8:00 am–11:00 am. The
                 meeting information is noted below. The Senate reserves the right to suspend the orders of the day if
                 necessary to conduct business. All Senate meetings are held in locations that are wheelchair accessible.
@@ -314,10 +314,12 @@
         </div>
         <div class="end-video">
         <p>Check out our campus welcome:</p>
+        <div class="box-vid">
         <video width="320" height="240" controls>
             <source src="video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        </div>
         </div>
     </footer>
     <details>
@@ -335,17 +337,17 @@
             <p>Name:</p>
             <input type="text">
             <br>
+            <div class="fun">
             <p>Is grading fun?</p>
-            <p>Yes No</p>
+            <p>Yes No</p></div>
             <input type="radio">
             <input type="radio">
             <br>
-            <div class="hungry"><p>Check if you are hungry</p></div>
-            <input type="checkbox">
+            <div class="hungry"><p>Check if you are hungry</p>
+            <input type="checkbox"></div>
             <br>
             <div class="favday"><p>What is your favorite day?</p></div>
             <input type="date" value="2024-04-01">
-
             <fieldset>
                 <legend>Choose your favorite drink</legend>
             
@@ -356,12 +358,14 @@
                 <label for="notwater">Not Water</label><br>
             </fieldset>
             <br><br>
+            <div class="ta-opinion">
             <label for="opinion">Tell us what you think about us as students:</label>
             <br>
             <textarea id="opinion" name="opinion" rows="5" cols="33">
             </textarea>
-            <button type="button">Submit!</button>
+            <button type="button">Submit!</button></div>
             <br><br>
+            <div class="drink">
             <label for="drink-select">Choose a Drink:</label>
 
             <select name="drinks" id="drink-select">
@@ -373,7 +377,9 @@
             <option value="smoothie">Smoothie</option>
             <option value="water">Water</option>
             </select>
+            </div>
             <br><br>
+            <div class="pad-car">
             <label for="car-choice">Choose a car:</label>
             <input list="car-types" id="car-choice" name="car-choice">
 
@@ -381,9 +387,10 @@
             <option value="Lambo"></option>
             <option value="Ferrari"></option>
             <option value="Tesla"></option>
-            </datalist>
+            </datalist></div>
             
             <br><br>
+            <div class="pad-power">
             <label for="superpowers">Choose a Superpower:</label>
 
             <select id="superpowers">
@@ -391,7 +398,7 @@
             <option value="flight">Flight</option>
             <option value="strength">Strength</option>
             <option value="healing">Healing</option>
-            </select>
+            </select></div>
         </form> 
 </body>
 
