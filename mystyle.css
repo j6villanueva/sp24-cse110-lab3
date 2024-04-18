@@ -15,6 +15,7 @@
     height: 100px;
 
     background: hsl(250, 50%, 60%);
+    position: static;
 }
 
 .end-video {
@@ -110,4 +111,5 @@
 
 .drink{
     display: block;
+    position: relative;
  }
