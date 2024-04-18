@@ -1,0 +1,113 @@
+:root{
+    --gen-color: #0000FF; /* fallback form heading color */
+}
+.end-links {
+    width: 300px;
+    height: 130px;
+    background-color: rgb(188, 133, 133); /* Light Red */
+    fallback: rosybrown;
+    color:gold;
+    border: 1px solid #d4af37;
+}
+
+.end-tunes {
+    width: 300px;
+    height: 100px;
+
+    background: hsl(250, 50%, 60%);
+}
+
+.end-video {
+    color: color(display-p3 1 .1 1);
+    background-color: color-mix(in srgb, #65ef23 10%, orange);
+}
+
+.form-heading{
+    color: var(--gen-color, navy);
+    max-width:100px;
+    min-width:400px;     
+
+}
+
+.location {
+    background-color: #c4c6c8;
+    font-size: 110%;
+  }
+
+  /* add absolute */
+
+.header{
+    font-size: .2in;
+}
+
+.date{
+    font-size: 12pt;
+}
+
+.time{
+    font-size: 16px;
+}
+  
+  /* add relative */
+
+.hungry{
+    font-size: 1.1em;
+}
+
+.favday{
+    font-size: 2.4vw;
+}
+
+.logo-box{
+    margin-top: -10px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+}
+
+.logo-box{
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 3em;
+}
+/* margin: <top> <right> <bottom> <left> */
+.box-vid{
+    margin: -30px 30px 20px 1em
+}
+/* auto */
+.ta-opinion{
+    margin: auto;
+
+    border-style: solid; 
+    border-color: rgb(214, 191, 15); 
+    border-width: 2px; 
+    border-radius: 8px;
+}
+
+/* padding */
+
+.pad-power{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+.pad-car{
+    padding: 30px 15px 10px 30px;
+}
+
+.notice{
+    color:rgb(91, 22, 22);
+    text-decoration: underline #931e1e;
+    text-align:left;
+}
+
+.hungry{
+   display: none;
+}
+
+.drink{
+    display: block;
+ }
