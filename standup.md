@@ -1,0 +1,14 @@
+
+# DAILY STANDUP MEETING
+
+### Date:
+
+### Time:
+
+## PRIORITIES
+
+
+## PROGRESS UPDATES
+
+
+## PROBLEMS
