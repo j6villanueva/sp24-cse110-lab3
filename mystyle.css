@@ -121,3 +121,52 @@
   form:active {
     background: green;
   }
+
+  .parent {
+    display: flex;
+    gap: 10px;
+    flex-flow: row wrap;
+    height: 250px;
+  }
+
+  .child-one{
+    flex:1;
+    align-content: center;
+  }
+
+  .child-two{
+    flex:2;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.child-three{
+    flex:2;
+    align-content:center;
+}
+
+nav li{
+    display: grid;    
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+ .grid-1{
+    grid-row: 1 / 4;
+    background-color: red;
+}
+
+  .grid-2{
+    grid-row: 1 / 4;
+    background-color: burlywood;
+  }
+
+  .grid-3{
+    grid-row: 1 / 4;
+    background-color: bisque;
+  } 
+
+  .grid-4{
+    grid-row: 1 / 4;
+    background-color: gray;
+  } 
