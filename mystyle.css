@@ -22,7 +22,7 @@
 }
 
 .end-video {
-    color: color(from orange display-p3 1 .1 1);
+    color: color(display-p3 1 .1 1);
     background-color: color-mix(in srgb, #65ef23 10%, orange);
 }
 
