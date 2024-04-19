@@ -17,6 +17,13 @@
         body {
             background-color: linen;
         }
+
+        div~details {
+            background-color: grey;
+        }
+        div+p {
+            text-decoration:underline;
+        }
     </style>
 </head>
 
@@ -32,7 +39,7 @@
             </ul>
         </nav>
     </div>
-    <header>
+    <header id="top-header">
         <div class="logo-box"><img src="asg.png" alt="Logo"></div>
     </header>
     <main>
@@ -340,9 +347,9 @@
                 <p>Links:</p>
                 <nav>
                     <ul>
-                        <li><a href="https://www.asgsbcc.org/">Website</a></li>
-                        <li><a href="https://www.instagram.com/sbcc_asg/">Instagram</a></li>
-                        <li><a href="https://www.facebook.com/ASGofSBCC/">Facebook</a></li>
+                        <li><a href="https://www.asgsbcc.org/"> Website</a></li>
+                        <li><a href="https://www.instagram.com/sbcc_asg/"> Instagram</a></li>
+                        <li><a href="https://www.facebook.com/ASGofSBCC/"> Facebook</a></li>
                     </ul>
                 </nav>
             </section>
@@ -402,7 +409,7 @@
             </div>
             <br>
             <div class="favday">
-                <p>What is your favorite day?</p>
+                <h5>What is your favorite day?</h5>
             </div>
             <input type="date" value="2024-04-01">
             <fieldset>

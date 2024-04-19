@@ -184,10 +184,37 @@ nav li {
         overflow-wrap: break-word;
     }
 
-    .logo-box img{
+    .logo-box img {
         max-width: 70vw;
     }
+}
 
-    h1 {
+h1,
+h5 {
     font-family: "Montserrat", sans-serif;
-    }
+}
+
+#top-header {
+    background-color: beige;
+}
+
+* form {
+    color: rgb(16, 58, 16);
+}
+
+input[type="text"] {
+    background: lightgrey;
+}
+
+ul>li {
+    list-style-type: circle;
+
+}
+
+div.favday {
+    text-decoration: underline;
+}
+
+div:has(h5) {
+    color: blue;
+}
